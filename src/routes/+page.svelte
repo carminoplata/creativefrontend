@@ -68,7 +68,7 @@
 				"tasks": rolesObj['tasks']
 			};
 
-			fetch('http://127.0.0.1:5000/postJobOffer', {
+			fetch('http://127.0.0.1:8000/postJobOffer', {
 				headers: {
 					'Content-Type': 'application/json',
 					'test': 'test'
